@@ -18,7 +18,7 @@ nav .navbar-nav li a{
 .landing{
     width: 100%;
     height: 100vh;
-    background-image: url(/images/landing.jpg);
+    background-image: url(images/landing.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -52,13 +52,13 @@ nav .navbar-nav li a{
 }
 
 .card1{
-    background-image:url(/images/gallery/landing1.jpg) ;
+    background-image:url(images/gallery/landing1.jpg) ;
 }
 .card2{
-    background-image:url(/images/gallery/landing2.jpg) ;
+    background-image:url(images/gallery/landing2.jpg) ;
 }
 .card3{
-    background-image:url(/images/gallery/landing3.jpg) ;
+    background-image:url(images/gallery/landing3.jpg) ;
 }
 
 
@@ -84,54 +84,7 @@ nav .navbar-nav li a{
     background-image: linear-gradient(to right, rgba(7, 17, 167, 0.692), rgb(4, 115, 158));
 }
 
-/*
-.service-card {
-    display: grid;
-    grid-template-columns: 300px;
-   
-    grid-template-areas: "image" "text";
-    border-radius: 18px;
-    background: white;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-   
-    text-align: center;
-  }
-  
-  
-  
-  .card-image {
-    grid-area: image;
-    background: url("/images/background.jpg");
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background-size: cover;
-  }
 
-  .card-text {
-    grid-area: text;
-    margin: 25px;
-  }
-  .card-text .date {
-    color: rgb(255, 7, 110);
-    font-size:13px;
-  }
-  .card-text p {
-    color: grey;
-    font-size:15px;
-    font-weight: 300;
-  }
-  .card-text h2 {
-    margin-top:0px;
-    font-size:28px;
-  }
-  .card-stats {
-   
-  
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background: rgb(131, 0, 55);
-  }
-  */
 
 .s-card{
     
