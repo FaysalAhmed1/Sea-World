@@ -1,4 +1,4 @@
-// counter design
+// Counter Code
 document.addEventListener("DOMContentLoaded", () => {
     function counter(id, start, end, duration) {
         let obj = document.getElementById(id),
@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             }, step);
     }
-    counter("count1", 0, 1287, 3000);
-    counter("count2", 100, 5786, 2500);
-    counter("count3", 0, 1440, 3000);
-    counter("count4", 0, 7110, 3000);
+    counter("count1", 0, 250, 4000);
+    counter("count2", 100, 1000, 2500);
+    counter("count3", 0, 15000, 1000);
+    counter("count4", 0, 3, 4000);
 });

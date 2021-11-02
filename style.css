@@ -1,7 +1,75 @@
 
+body{
+    overflow-x: hidden !important;*/
+    
+}
 img{
     max-width: 100%;
 }
+
+nav .navbar-nav li a{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+    }
+
+  
+
+.landing{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0px !important;
+}
+.row-modify{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+.col-modify{
+    flex-basis: 50%;
+}
+
+.card-modify{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:  15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card-modify:hover{
+    transform: translateY(-10px);
+}
+
+.card1{
+    background-image:url(/images/gallery/landing1.jpg) ;
+}
+.card2{
+    background-image:url(/images/gallery/landing2.jpg) ;
+}
+.card3{
+    background-image:url(/images/gallery/landing3.jpg) ;
+}
+
+
+.p-font{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+
+
 .counter-section{
     background-image: linear-gradient(to right, rgba(40, 43, 247, 0.74), rgb(36, 188, 248));
     padding:50px 0;
@@ -12,9 +80,67 @@ img{
     text-transform: uppercase;
   }
    
+.colour-slider{
+    background-image: linear-gradient(to right, rgba(7, 17, 167, 0.692), rgb(4, 115, 158));
+}
+
+/*
+.service-card {
+    display: grid;
+    grid-template-columns: 300px;
+   
+    grid-template-areas: "image" "text";
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+   
+    text-align: center;
+  }
   
+  
+  
+  .card-image {
+    grid-area: image;
+    background: url("/images/background.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card-text {
+    grid-area: text;
+    margin: 25px;
+  }
+  .card-text .date {
+    color: rgb(255, 7, 110);
+    font-size:13px;
+  }
+  .card-text p {
+    color: grey;
+    font-size:15px;
+    font-weight: 300;
+  }
+  .card-text h2 {
+    margin-top:0px;
+    font-size:28px;
+  }
+  .card-stats {
+   
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(131, 0, 55);
+  }
+  */
+
+.s-card{
+    
+    background-image: linear-gradient(to right, rgba(89, 1, 161, 0.74), rgb(2, 177, 177));
+
+}
+
 .color-bg{
-    background-image: linear-gradient(to right, rgba(40, 43, 247, 0.74), rgb(36, 188, 248));
+    background-image: linear-gradient(to right, rgba(25, 28, 247, 0.74), rgb(25, 155, 206));
 }
 
 .color-faq{
@@ -44,11 +170,7 @@ img{
     margin-right: 15px !important;
 }
 
-#body {
-    
-    margin-bottom: 90px;
- 
- }
+
 
  
 p{
@@ -61,3 +183,15 @@ p{
 font-size: 30px;
 font-weight: 600;
 }
+
+.wrap{
+    width: 700px;
+    word-break: break-word;
+}
+
+@media screen and (max-width:550px) {
+    .media{
+       display: none;
+    }
+  }
+
